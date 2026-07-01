@@ -12,7 +12,7 @@ Review the relevant canonical skill guidance first, then apply these repository-
 
 ## Scope: General, Not Per-Device
 
-Each pack is written at the platform-and-pattern level so it applies across peripheral types — any sensor or actuator MPU — not a single device. A pack describes the reusable rules (structure, I2C-slave protocol discipline, canonicalization, safety, resource budgets); the specific sensor or actuator hardware is supplied per project, not baked into the skill. When you find yourself wanting device-specific guidance, that belongs in the code or an ADR, not in a skill pack.
+Each pack is written at the platform-and-pattern level so it applies across Peripheral Unit types (sensor or actuator), not a single device. A pack describes the reusable rules (structure, I2C-slave protocol discipline, canonicalization, safety, resource budgets); the specific sensor or actuator hardware is supplied per project, not baked into the skill. When you find yourself wanting device-specific guidance, that belongs in the code or an ADR, not in a skill pack.
 
 ## Partial Disclosure
 

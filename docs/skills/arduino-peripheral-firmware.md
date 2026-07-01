@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Guide coding agents to implement maintainable, resource-safe peripheral firmware for Greenhouse sensor and actuator MPUs using the Arduino framework on small MCUs (Arduino Nano / Pro class, occasionally ESP32 for dual-I2C sensors).
+Guide coding agents to implement maintainable, resource-safe firmware for Greenhouse Peripheral Units using the Arduino framework on small MCUs (Arduino Nano / Pro class, occasionally ESP32 for dual-I2C sensors).
 
 A peripheral is an I2C slave to its hosting Edge Unit. It owns one piece of hardware, exposes a canonical interface, and does nothing else. This pack covers how to build that cleanly without over-engineering or exceeding the board's resources.
 

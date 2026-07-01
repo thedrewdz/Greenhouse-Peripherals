@@ -4,7 +4,7 @@
 
 This repository is the mono-repo for all peripheral firmware in the Greenhouse platform.
 
-Peripherals are the small sensor and actuator MPUs (Arduino Nano / Pro class boards, occasionally ESP32 for dual-I2C sensors) that attach to an Edge Unit slot over the shared I2C bus.
+Peripherals are Peripheral Units: small microcontroller boards (Arduino Nano / Pro class, occasionally ESP32 for dual-I2C sensors) that are hard-coded for a specific sensor or actuator and attach to an Edge Unit slot over the shared I2C bus.
 
 This is not the Edge Unit firmware repository, and not the Main Unit application repository.
 
@@ -30,7 +30,7 @@ This file is the canonical, neutral, cross-agent policy for this repository. All
 
 ## Scope Boundaries
 
-- Keep work focused on peripheral (sensor / actuator MPU) firmware concerns.
+- Keep work focused on Peripheral Unit firmware concerns.
 - A peripheral is hard-coded for a single piece of hardware. Keep it small, single-purpose, and deterministic.
 - Do not introduce Edge Unit responsibilities into a peripheral: no peripheral discovery/registry, no WiFi, no MQTT, no BLE provisioning, no Main Unit UI, and no cloud-first assumptions. Those belong to the Edge Unit and Main Unit respectively.
 - The Edge Unit is the I2C master; a peripheral is an I2C slave that exposes a canonical interface and nothing more.

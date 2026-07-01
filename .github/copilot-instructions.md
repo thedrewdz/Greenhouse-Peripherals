@@ -10,7 +10,7 @@ Before taking any other action in this repository, read:
 
 ## Repository Focus
 
-This repository is the mono-repo for peripheral (sensor / actuator MPU) firmware in the Greenhouse platform.
+This repository is the mono-repo for Peripheral Unit firmware in the Greenhouse platform.
 
 A peripheral is hard-coded for a single piece of hardware, runs on small MCUs (Arduino Nano / Pro class, occasionally ESP32 for dual-I2C sensors), and acts as an I2C slave to its hosting Edge Unit.
 

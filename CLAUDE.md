@@ -19,7 +19,7 @@ All scope boundaries, instruction precedence, coding standards, firmware runtime
 
 ## What This Repository Is
 
-This repository is the mono-repo for peripheral firmware: the small sensor and actuator MPUs (Arduino Nano / Pro class, occasionally ESP32 for dual-I2C sensors) that attach to an Edge Unit slot over I2C.
+This repository is the mono-repo for Peripheral Unit firmware: small microcontroller boards (Arduino Nano / Pro class, occasionally ESP32 for dual-I2C sensors) that are hard-coded for a specific sensor or actuator and attach to an Edge Unit slot over I2C.
 
 It is not the Edge Unit firmware repository and not the Main Unit application repository.
 
@@ -65,7 +65,7 @@ Local, implementation-focused skill packs for this repository live under `docs/s
 
 These are supplemental to the canonical skills in the Greenhouse Documentation repository. Review the relevant canonical skill guidance first, then apply these repository-local packs for peripheral / Arduino specifics.
 
-Each pack is written at the platform-and-pattern level so it applies across peripheral types (any sensor or actuator MPU), not to a single device.
+Each pack is written at the platform-and-pattern level so it applies across all Peripheral Unit types, not to a single device.
 
 Read `docs/skills/README.md` to select the right pack for the task.
 Load only the matching pack, not all of them.
